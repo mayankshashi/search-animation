@@ -101,7 +101,7 @@ const SearchbarWithResults = () => {
     } else {
       setAnimatedCounts({})
     }
-  }, [isLoading, showResults, results])
+  }, [isLoading, showResults, results, actualCounts])
 
   const tabs = [
     { id: 'all', label: 'All', count: animatedCounts.all || 0 },
@@ -114,7 +114,7 @@ const SearchbarWithResults = () => {
   useEffect(() => {
     const fetchResults = async () => {
       try {
-        const response = await fetch('/src/data/searchResults.json')
+        const response = await fetch('/data/searchResults.json')
         const data = await response.json()
         setResults(data.results)
       } catch (error) {
