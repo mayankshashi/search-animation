@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "type": "person",
+      "title": "Caroline Dribsson",
+      "subtitle": "Unactivated",
+      "avatar": null
+    },
+    {
+      "type": "person",
+      "title": "Adam Cadribean",
+      "subtitle": "Active 1w ago",
+      "avatar": null
+    },
+    {
+      "type": "file",
+      "title": "Random Michael Folder",
+      "subtitle": "in Presentations • Edited 1w ago",
+      "icon": "file"
+    },
+    {
+      "type": "person",
+      "title": "Randall Jhonson",
+      "subtitle": "Active now",
+      "avatar": null
+    },
+    {
+      "type": "file",
+      "title": "final_dribbble_presentation.jpg",
+      "subtitle": "in Phots/assets • Edited 12m ago",
+      "icon": "image"
+    },
+    {
+      "type": "file",
+      "title": "files_kerande_video.avi",
+      "subtitle": "in Videos • Edited 12m ago",
+      "icon": "video"
+    },
+    {
+        "type": "file",
+        "title": "Caroline Dribsson Folder",
+        "subtitle": "in Presentations • Edited 2w ago",
+        "icon": "file"
+    },
+    {
+        "type": "file",
+        "title": "Adam Cadribean Folder",
+        "subtitle": "in Presentations • Edited 2w ago",
+        "icon": "file"
+    }
+  ]
+}

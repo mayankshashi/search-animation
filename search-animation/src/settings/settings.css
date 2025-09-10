@@ -1,0 +1,99 @@
+.settings-window {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 24px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  z-index: 3;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 16px;
+}
+
+.settings-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.settings-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.settings-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+
+.settings-item-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.settings-item-left {
+  display: flex;
+  align-items: center;
+}
+
+.settings-item-label {
+  font-size: 14px;
+  color: #374151;
+}
+
+/* Toggle Switch Styles */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 20px;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e5e7eb;
+  transition: .4s;
+  border-radius: 20px;
+}
+
+.toggle-slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .toggle-slider {
+  background-color: #000000;
+}
+
+input:checked + .toggle-slider:before {
+  transform: translateX(16px);
+}
